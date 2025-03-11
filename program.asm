@@ -46,4 +46,44 @@ mov cx,05h
 div cx 
 
 ret
- 
+
+
+Programs for logical  operations: 
+
+AND:
+org 100h
+
+mov ax,1234h 
+mov bx,3456h
+AND ax,bx
+
+ret
+
+OR :
+
+org 100h
+
+mov ax,1234h 
+mov bx,3456h
+or ax,bx
+
+ret
+
+NOT :
+
+org 100h
+
+mov ax,1234h 
+NOT ax,bx
+
+ret
+
+XOR :
+
+org 100h
+
+mov ax,1234h 
+mov bx,3456h
+XOR ax,bx
+
+ret
