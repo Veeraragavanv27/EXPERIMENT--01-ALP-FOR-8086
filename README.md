@@ -168,6 +168,7 @@ ret
 ## Programs for logical  operations: 
 
 ## AND:
+```
 org 100h
 
 mov ax,1234h 
@@ -175,12 +176,12 @@ mov bx,3456h
 AND ax,bx
 
 ret
-
+```
 ## Output 
 ![alt text](<Screenshot 2025-03-11 105623.png>)
 
 ## OR :
-
+```
 org 100h
 
 mov ax,1234h 
@@ -188,24 +189,24 @@ mov bx,3456h
 or ax,bx
 
 ret
-
+```
 ## Output 
 ![alt text](<Screenshot 2025-03-11 105835.png>)
 
 ## NOT :
-
+```
 org 100h
 
 mov ax,1234h 
 NOT ax,bx
 
 ret
-
+```
 ## Output
 ![alt text](<Screenshot 2025-03-11 105935.png>)
 
 ## XOR :
-
+```
 org 100h
 
 mov ax,1234h 
@@ -213,7 +214,7 @@ mov bx,3456h
 XOR ax,bx
 
 ret
-
+```
 ## Output 
 ![alt text](<Screenshot 2025-03-11 110029.png>)
 
