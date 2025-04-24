@@ -1,7 +1,7 @@
-# EXPERIMENT--01-ALP-FOR-8086
-Name : VEERARAGAVAN V
-Roll no : 212223230237
-Date of experiment :
+# EXPERIMENT 01 ALP FOR 8086
+## Name : VEERARAGAVAN V
+## Roll no : 212223230237
+## Date of experiment :
 
 
 
